@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="HIT International Communication Association">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>HICA | HIT International Communication Association</title>
+		<!-- Add to homescreen for Chrome on Android -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="icon" sizes="192x192" href="images/logo.png">
+		<!-- Add to homescreen for Safari on iOS -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Material Design Lite">
+		<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+		<!-- Tile icon for Win8 (144x144 + tile color) -->
+		<meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+		<meta name="msapplication-TileColor" content="#3372DF">
+		<!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+		<!--
+			<link rel="canonical" href="http://www.example.com/">
+			
+		<link href="css/MaterialIcons.css" rel="stylesheet">
+		-->
+		<link rel="stylesheet" href="css/material.purple-deep_purple.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<script type="text/javascript"> 
+			function clickEle(id) { 
+				var elm = document.getElementById(id); 
+				elm.click();
+			} 
+			setTimeout('Notice()',3000);
+			function Notice() { 
+				var elm = document.getElementById('notice'); 
+				elm.style.cssText='display:none';
+			} 
+		</script> 
+	</head>
+	<body class="mdl-body mdl-color--grey-100 mdl-color-text--grey-700">
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+			<header class="mdl-layout__header mdl-layout__header--waterfall mdl-color--white">
+				<div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--white">
+					<span class="mdl-layout-title">
+					<img class="hica-logo-image" src="images/hica-logo.png">
+					</span>
+					<div class="mdl-layout-spacer"></div>
+					<div class="mdl-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+						<label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+							<img class="material-icons-fallback" src="images/search.svg"></img>
+						</label>
+						<div class="mdl-textfield__expandable-holder">
+							<input class="mdl-textfield__input" type="text" id="search-field" />
+						</div>
+					</div>
+					<a href="#home" id="nav-home" class="mdl-layout__tab is-active">Home</a>
+					<!---<a href="#news" id="nav-news" class="mdl-layout__tab">News</a>--->
+					<a href="#apply" id="nav-apply" class="mdl-layout__tab">HITMUN</a>
+					<a href="#join" id="nav-join" class="mdl-layout__tab">Join us</a>
+					<a href="#about" id="nav-about"class="mdl-layout__tab">About</a>
+					<span class="header-end"></span>
+				</div>
+			</header>
+			<div class="mdl-layout__drawer">
+				<span class="mdl-layout-title">
+				<img class="hica-logo-image" src="images/hica-logo-white.png">
+				</span>
+				<nav class="mdl-navigation">
+					<a class="mdl-navigation__link" onclick="clickEle('nav-home')">Home</a>
+					<!---<a class="mdl-navigation__link" onclick="clickEle('nav-news')">News</a>--->
+					<a class="mdl-navigation__link" onclick="clickEle('nav-join')">Join us</a>
+					<a class="mdl-navigation__link" onclick="clickEle('nav-about')">About</a>
+				</nav>
+			</div>
+			<main class="mdl-layout__content"">
+				<div class="mdl-layout__tab-panel is-active" id="home">
+					<!---<div class="mdl-color--red" id="notice">
+						<center>
+							<h4 style='margin:0px;color:#fff;'>请报名讲座部的同学现在前往主楼B409面试</h4>
+						</center>
+					</div>--->
+					<div id="Home-page-slide">
+						<div class="slide">
+							<div class="img">
+								<img src="images/slide.png">
+							</div>
+							<div class="img-mobi">
+								<img src="images/hica-logo-white.png">
+							</div>
+							<div class="button">
+								<button class="slide-button" onclick="clickEle('nav-apply')">
+								  HITMUN报名
+								</button>
+							</div>
+							<div class="img-addon">
+								<img src="images/wmun.png">
+							</div>
+						</div>
+
+					</div>
+					<div class="newsNevents mdl-grid">
+						<div class="mdl-cell mdl-cell--middle mdl-cell--8-col-desktop mdl-cell--4-col-phone mdl-cell--4-col-phone mdl-shadow--2dp card inline-block" id="news">
+							<h4 class="mdl-cell mdl-cell--12-col card-title">News</h4>
+							<div class="content">
+								<div class="news">
+									<header class="mdl-color--teal-100 mdl-color-text--white">
+									</header>
+									<h5>哈工大2015 ICISTS-KAIST会议代表团再创佳绩</h5>
+									应ICISTS-KAIST 组委会邀请，哈工大组织了13人（含两名指导教师）的代表团赴韩参加了8月3日-8月7日在韩国科学技术院（KAIST）大学举办的第11届ICISTS-KAIST(International Conference for the Integration of Science & Technology into Society)会议。
+									<a href="http://today.hit.edu.cn/news/2015/08-18/2395610180RL0.htm">阅读全文</a>
+								</div>
+								<div class="news">
+									<header class="mdl-color--teal-100 mdl-color-text--white">
+									</header>
+									<h5>2015年GIFTS国际科技社会创新者论坛成功举办</h5>
+									2015年7月11-14日，首届GIFTS--Global Innovators Forum on Technology and Society国际科技社会创新者论坛于哈工大成功举办。GIFTS国际论坛是由国际合作处主办、哈工大国际交流协会（HICA）承办的国际交流研讨会。
+									<a href="http://today.hit.edu.cn/news/2015/08-09/3631857080RL0.htm">阅读全文</a>
+								</div>
+							</div>
+							<div class="mdl-card__actions">
+								<a href="#" class="mdl-button">Read all</a>
+							</div>
+						</div>
+						<div class="mdl-cell mdl-cell--middle mdl-cell--3-col-desktop mdl-cell--4-col-phone mdl-cell--4-col-phone mdl-shadow--2dp card inline-block">
+							<h4 class="mdl-cell mdl-cell--12-col card-title">Events</h4>
+							<div class="content">
+								<div class="events">
+									<div class="description">
+										<img class="material-icons inline-block" src="images/assignment.svg"></img>
+										<h5 class="inline-block">HICA 春季招新面试（二区）</h5>
+									</div>
+									<div class="time">
+										<img class="material-icons inline-block" src="images/schedule.svg"></img>
+										<h5 class="inline-block">2016年3月19日</h5>
+									</div>
+									<div class="room events-end">
+										<img class="material-icons inline-block" src="images/room.svg"></img>
+										<h5 class="inline-block">待定</h5>
+									</div>
+								</div>
+								<div class="events">
+									<div class="description events-start">
+										<img class="material-icons inline-block" src="images/assignment.svg"></img>
+										<h5 class="inline-block">HICA 春季招新面试(一区)</h5>
+									</div>
+									<div class="time">
+										<img class="material-icons inline-block" src="images/schedule.svg"></img>
+										<h5 class="inline-block">2016年3月20日</h5>
+									</div>
+									<div class="room events-end">
+										<img class="material-icons inline-block" src="images/room.svg"></img>
+										<h5 class="inline-block">待定</h5>
+									</div>
+								</div>
+							</div>
+							<div class="mdl-card__actions">
+								<a href="#" class="mdl-button">Read all</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mdl-layout__tab-panel" id="join">
+					<div class="mdl-grid">
+						<div class="mdl-cell mdl-cell--middle mdl-cell--8-col-desktop mdl-cell--4-col-phone card mdl-shadow--2dp" id="joinus-form">
+							<form action="http://114.215.150.158:5000" method="post">
+								<h4 class="form-title">Personal Information</h4>
+								<div class="input">
+									<div class="title inline-block">
+										<label for="Name">Name</label>
+									</div>
+									<div class="mdl-textfield mdl-js-textfield">
+										<input id="Name" class="mdl-textfield__input" name="Name" type="text">
+										<label class="mdl-textfield__label" for="Name">Chinese name, required</label>
+									 </div>
+								 </div>
+								 <div class="input">
+									<div class="title inline-block">
+										<label for="Gender">Gender</label>
+									</div>
+									<div class="input-radio inline-block">
+										<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="gender-option-1">
+										  <input type="radio" id="gender-option-1" class="mdl-radio__button" name="Gender" value="Male"/>
+										  <span class="mdl-radio__label">Male</span>
+										</label>
+										<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="gender-option-2">
+										  <input type="radio" id="gender-option-2" class="mdl-radio__button" name="Gender" value="Female"/>
+										  <span class="mdl-radio__label">Female</span>
+										</label>
+									</div>
+								</div>
+								 <div class="input">
+									 <div class="title inline-block">
+										 <label for="StudentID">StudentID</label>
+									 </div>
+									 <div class="mdl-textfield mdl-js-textfield">
+										<input id="StudentID" class="mdl-textfield__input" name="StudentID" type="number">
+										<label class="mdl-textfield__label" for="StudentID">StudentID, required</label>
+									</div>
+								</div>
+								<div class="input">	
+									<div class="title inline-block">
+										<label for="Birth">Birth</label>
+									</div>
+									<div class="mdl-textfield mdl-js-textfield">
+										<input id="Birth" class="mdl-textfield__input" name="Birth" type="text" placeholder="Birthday, required" onfocus="(this.type='date')">
+									</div>
+								</div>
+								<div class="input">
+									<div class="title inline-block">
+										<label for="Major">Major</label>
+									</div>
+									<div class="mdl-textfield mdl-js-textfield">
+										<input id="Major" class="mdl-textfield__input" name="Major" type="text">
+										<label class="mdl-textfield__label" for="Major">Major, required</label>
+									</div>
+								</div>
+								<div class="input">
+									<div class="title inline-block">
+										<label for="Mobile">Mobile</label>
+									</div>
+									<div class="mdl-textfield mdl-js-textfield">
+										<input id="Mobile" class="mdl-textfield__input" name="Mobile" type="tel">
+										<label class="mdl-textfield__label" for="Mobile">Mobile, required</label>
+									</div>
+								</div>
+								<div class="input">
+									<div class="title inline-block">
+										<label for="QQ">QQ</label>
+									</div>
+									<div class="mdl-textfield mdl-js-textfield">
+										<input id="QQ" class="mdl-textfield__input" name="QQ" type="number">
+										<label class="mdl-textfield__label" for="QQ">QQ number</label>
+									</div>
+								</div>
+								<div class="input">
+									<div class="title inline-block">
+										<label for="Email">Email</label>
+									</div>
+									<div class="mdl-textfield mdl-js-textfield">
+										<input id="Email" class="mdl-textfield__input" name="Email" type="email">
+										<label class="mdl-textfield__label" for="Email">Email address</label>
+									</div>
+								</div>
+								<h4 class="form-title">Application Information</h4>
+								<div class="input-select">
+									<div class="title inline-block">
+										<label for="Department">Department</label>
+									</div>
+									<div class="select inline-block">
+										<select id="Department" name="Department">
+											<option value ="Lecture">Lecture Department</option>
+											<option value ="Activity">Activity Department</option>
+											<option value ="Language">Language Department</option>
+											<option value ="CC">Chatting Café</option>
+											<option value ="Russian">Russian Department</option>
+										</select>
+									</div>
+								</div>
+								<div class="input-select">
+									<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="io">
+									  <input type="checkbox" id="io" name="io" value="io" class="mdl-checkbox__input" />
+									  <span class="mdl-checkbox__label">Join HICA I/O Design Team</span>
+									</label>
+									<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="h2m">
+                                      <input type="checkbox" id="h2m" name="h2m" value="h2m" class="mdl-checkbox__input" />
+                                      <span class="mdl-checkbox__label">Join HICA H2M Media Team</span>
+									</label>
+								</div>
+								</br>
+								</br>
+								<div class="input-textarea">
+									<label for="Intention">Why do you want to apply for HICA and the department?</label>
+									<div class="mdl-textfield mdl-js-textfield">
+										<textarea id="Intention" name="Intention" class="mdl-textfield__input" type="text" rows="5" num="260"></textarea>
+										<label class="mdl-textfield__label" for="Intention">Please keep it no more than 250 words</label>
+									</div>
+								</div>
+								<div class="input-textarea">
+									<label for="Skill">Please give an evaluation to your language level (English/Russian/Japanese...)</label>
+									<div class="mdl-textfield mdl-js-textfield">
+										<textarea id="Skill" name="Skill" class="mdl-textfield__input" type="text" rows="3" num="160"></textarea>
+										<label class="mdl-textfield__label" for="Skill">Please keep it no more than 150 words</label>
+									</div>
+								</div>
+								<div class="input-textarea">
+									<label for="Experience">Do you have any previous experience for international communication?</label>
+									<div class="mdl-textfield mdl-js-textfield">
+										<textarea id="Experience" name="Experience" class="mdl-textfield__input" type="text" rows="5" num="260"></textarea>
+										<label class="mdl-textfield__label" for="Experience">Please keep it no more than 250 words</label>
+									</div>
+								</div>
+								<div class="input-textarea">
+										<label>Please evaluate your skills below</label>
+								</div>
+								</br>
+								<div class="input-select">
+									<div class="title inline-block">
+										<label for="Writing">Writing</label>
+									</div>
+									<div class="select inline-block">
+										<select id="Writing" name="Writing">
+											<option value ="A">A. Excellent</option>
+											<option value ="B">B. Acceptable</option>
+											<option value ="C">C. Poor</option>
+											<option value ="D">D. Just heard of</option>
+										</select>
+									</div>
+								</div>
+								<div class="input-select">
+									<div class="title inline-block">
+										<label for="Language">Other language(s)</label>
+									</div>
+									<div class="select inline-block">
+										<select id="Language" name="Language">
+											<option value ="A">A. Excellent</option>
+											<option value ="B">B. Acceptable</option>
+											<option value ="C">C. Poor</option>
+											<option value ="D">D. Just heard of</option>
+										</select>
+									</div>
+								</div>
+								<div class="input-select">
+									<div class="title inline-block">
+										<label for="Photoshop">Photoshop</label>
+									</div>
+									<div class="select inline-block">
+										<select id="Photoshop" name="Photoshop">
+											<option value ="A">A. Excellent</option>
+											<option value ="B">B. Acceptable</option>
+											<option value ="C">C. Poor</option>
+											<option value ="D">D. Just heard of</option>
+										</select>
+									</div>
+								</div>
+								<div class="input-select">
+									<div class="title inline-block">
+										<label for="Drawing">Drawing</label>
+									</div>
+									<div class="select inline-block">
+										<select id="Drawing" name="Drawing">
+											<option value ="A">A. Excellent</option>
+											<option value ="B">B. Acceptable</option>
+											<option value ="C">C. Poor</option>
+											<option value ="D">D. Just heard of</option>
+										</select>
+									</div>
+								</div>
+								<div class="input-select">
+									<div class="title inline-block">
+										<label for="Video">VideoProducing</label>
+									</div>
+									<div class="select inline-block">
+										<select id="Video" name="Video">
+											<option value ="A">A. Excellent</option>
+											<option value ="B">B. Acceptable</option>
+											<option value ="C">C. Poor</option>
+											<option value ="D">D. Just heard of</option>
+										</select>
+									</div>
+								</div>
+								<div class="input-select">
+									<div class="title inline-block">
+										<label for="Web">WebsiteDesigning</label>
+									</div>
+									<div class="select inline-block">
+										<select id="Web" name="Web">
+											<option value ="A">A. Excellent</option>
+											<option value ="B">B. Acceptable</option>
+											<option value ="C">C. Poor</option>
+											<option value ="D">D. Just heard of</option>
+										</select>
+									</div>
+								</div>
+								<div class="input-select">
+									<div class="title inline-block">
+										<label for="Photography">Photography</label>
+									</div>
+									<div class="select inline-block">
+										<select id="Photography" name="Photography">
+											<option value ="A">A. Excellent</option>
+											<option value ="B">B. Acceptable</option>
+											<option value ="C">C. Poor</option>
+											<option value ="D">D. Just heard of</option>
+										</select>
+									</div>
+								</div>
+								<div class="input-select">
+									<div class="title inline-block">
+										<label for="Hosting">Hosting</label>
+									</div>
+									<div class="select inline-block">
+										<select id="Hosting" name="Hosting">
+											<option value ="A">A. Excellent</option>
+											<option value ="B">B. Acceptable</option>
+											<option value ="C">C. Poor</option>
+											<option value ="D">D. Just heard of</option>
+										</select>
+									</div>
+								</div>
+								</br>
+								</br>
+								<div class="input-textarea">
+									<label for="ExperienceB">What else skills besides those mentioned above? Briefly evaluate them.</label>
+									<div class="mdl-textfield mdl-js-textfield">
+										<textarea id="ExperienceB" name="ExperienceB" class="mdl-textfield__input" type="text" rows="7" num="420"></textarea>
+										<label class="mdl-textfield__label" for="ExperienceB">Please keep it no more than 400 words</label>
+									</div>
+								</div>
+								<div class="input-textarea">
+									<label for="Advantage">Please expound your advantages or special characteristics and your reason of joining HICA?</label>
+									<div class="mdl-textfield mdl-js-textfield">
+										<textarea id="Advantage" name="Advantage" class="mdl-textfield__input" type="text" rows="9" num="620"></textarea>
+										<label class="mdl-textfield__label" for="Advantage">Please keep it no more than 600 words</label>
+									</div>
+								</div>
+								<div class="input-submit">
+									<input type="submit" value="Submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="mdl-layout__tab-panel" id="apply">
+					<div class="mdl-grid">
+						<div class="mdl-cell mdl-cell--middle mdl-cell--8-col-desktop mdl-cell--4-col-phone card mdl-shadow--2dp" id="apply-form">
+							<form action="http://114.215.150.158:5000/HITMUN" method="post">
+								<h4 class="form-title">Personal Information for 2016 HITMUN</h4>
+								<div class="input">
+									<div class="title inline-block">
+										<label for="Name">Name</label>
+									</div>
+									<div class="mdl-textfield mdl-js-textfield">
+										<input id="Name" class="mdl-textfield__input" name="Name" type="text">
+										<label class="mdl-textfield__label" for="Name">Chinese name, required</label>
+									 </div>
+								 </div>
+								 <div class="input">
+									<div class="title inline-block">
+										<label for="Gender">Gender</label>
+									</div>
+									<div class="input-radio inline-block">
+										<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="gender-option-3">
+										  <input type="radio" id="gender-option-3" class="mdl-radio__button" name="Gender" value="Male"/>
+										  <span class="mdl-radio__label">Male</span>
+										</label>
+										<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="gender-option-4">
+										  <input type="radio" id="gender-option-4" class="mdl-radio__button" name="Gender" value="Female"/>
+										  <span class="mdl-radio__label">Female</span>
+										</label>
+									</div>
+								</div>
+								<div class="input">	
+									<div class="title inline-block">
+										<label for="Birth">Birth</label>
+									</div>
+									<div class="mdl-textfield mdl-js-textfield">
+										<input id="Birth" class="mdl-textfield__input" name="Birth" type="text" placeholder="Birthday, required" onfocus="(this.type='date')">
+									</div>
+								</div>
+								<div class="input">	
+									<div class="title inline-block">
+										<label for="Grade">Grade</label>
+									</div>
+									<div class="mdl-textfield mdl-js-textfield">
+										<input id="Grade" class="mdl-textfield__input" name="Grade" type="text" placeholder="Grade, required">
+									</div>
+								</div>
+								<div class="input">
+									<div class="title inline-block">
+										<label for="Major">Major</label>
+									</div>
+									<div class="mdl-textfield mdl-js-textfield">
+										<input id="Major" class="mdl-textfield__input" name="Major" type="text">
+										<label class="mdl-textfield__label" for="Major">Major, required</label>
+									</div>
+								</div>
+								<div class="input">
+									<div class="title inline-block">
+										<label for="Mobile">Mobile</label>
+									</div>
+									<div class="mdl-textfield mdl-js-textfield">
+										<input id="Mobile" class="mdl-textfield__input" name="Mobile" type="tel">
+										<label class="mdl-textfield__label" for="Mobile">Mobile, required</label>
+									</div>
+								</div>
+								<div class="input">
+									<div class="title inline-block">
+										<label for="Email">Email</label>
+									</div>
+									<div class="mdl-textfield mdl-js-textfield">
+										<input id="Email" class="mdl-textfield__input" name="Email" type="email">
+										<label class="mdl-textfield__label" for="Email">Email address</label>
+									</div>
+								</div>
+								<div class="input">
+									<div class="title inline-block">
+										<label for="Nationality">Nationality</label>
+									</div>
+									<div class="mdl-textfield mdl-js-textfield">
+										<input id="Nationality" class="mdl-textfield__input" name="Nationality" type="text">
+										<label class="mdl-textfield__label" for="Nationality">Nationality, required</label>
+									</div>
+								</div>
+								
+								<div class="input-select">
+									<div class="title inline-block">
+										<label for="Intention">Committee</label>
+									</div>
+									<div class="select inline-block">
+										<select id="Intention" name="Intention">
+											<option value ="SC">Security Council</option>
+											<option value ="UNESCO">UNESCO</option>
+											<option value ="UNIDO">UNIDO</option>
+											<option value ="MPC">MPC</option>
+										</select>
+									</div>
+								</div>
+								<h4 class="form-title">Application Information</h4>
+								<div class="input-textarea">
+									<label for="Experience">Any MUN Conference Experience</label>
+									<div class="mdl-textfield mdl-js-textfield">
+										<textarea id="Experience" name="Experience" class="mdl-textfield__input" type="text" rows="5" num="500"></textarea>
+										<label class="mdl-textfield__label" for="Experience">Please keep it no more than 500 words</label>
+									</div>
+								</div>
+								<div class="input-textarea">
+									<label for="Reason">The Reason Why You Want to Attend MUN</label>
+									<div class="mdl-textfield mdl-js-textfield">
+										<textarea id="Reason" name="Reason" class="mdl-textfield__input" type="text" rows="7" num="1000"></textarea>
+										<label class="mdl-textfield__label" for="Reason">Please keep it no more than 1000 words</label>
+									</div>
+								</div>
+								<div class="input-submit">
+									<input type="submit" value="Submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<footer class="mdl-mini-footer mdl-color--white">
+					<div class="mdl-mini-footer__left-section">
+						<div class="mdl-logo">HICA</div>
+						<ul class="mdl-mini-footer__link-list">
+							<li><a href="#">Help</a></li>
+							<li><a href="#">Privacy & Terms</a></li>
+						</ul>
+					</div>
+					<script src="js/material.min.js"></script>
+				</footer>
+			</main>
+		</div>
+	</body>
+</html>
