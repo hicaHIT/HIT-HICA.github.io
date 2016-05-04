@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="HIT International Communication Association">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>HICA | HIT International Communication Association</title>
+		<!-- Add to homescreen for Chrome on Android -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="icon" sizes="192x192" href="images/logo.png">
+		<!-- Add to homescreen for Safari on iOS -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Material Design Lite">
+		<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+		<!-- Tile icon for Win8 (144x144 + tile color) -->
+		<meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+		<meta name="msapplication-TileColor" content="#3372DF">
+		<!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+		<!--
+			<link rel="canonical" href="http://www.example.com/">
+			-->
+		<link href="css/MaterialIcons.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/material.purple-deep_purple.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<script type="text/javascript"> 
+			window.setTimeout("window.location='http://worldhit.cn'",3000); 
+		</script> 
+	</head>
+	<body class="mdl-body mdl-color--grey-100 mdl-color-text--grey-700">
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+			<header class="mdl-layout__header mdl-layout__header--waterfall mdl-color--white">
+				<div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--white">
+					<span class="mdl-layout-title">
+					<img class="hica-logo-image" src="images/hica-logo.png">
+					</span>
+					<div class="mdl-layout-spacer"></div>
+					<div class="mdl-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+						<label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+						<i class="material-icons">search</i>
+						</label>
+						<div class="mdl-textfield__expandable-holder">
+							<input class="mdl-textfield__input" type="text" id="search-field" />
+						</div>
+					</div>
+					<a href="http://worldhit.cn" id="nav-home" class="mdl-layout__tab is-active">Home</a>
+					<a href="http://worldhit.cn" id="nav-news" class="mdl-layout__tab">News</a>
+					<a href="http://worldhit.cn" id="nav-join" class="mdl-layout__tab">Join us</a>
+					<a href="http://worldhit.cn" id="nav-about"class="mdl-layout__tab">About</a>
+					<span class="header-end"></span>
+				</div>
+			</header>
+			<div class="mdl-layout__drawer">
+				<span class="mdl-layout-title">
+				<img class="hica-logo-image" src="images/hica-logo-white.png">
+				</span>
+				<nav class="mdl-navigation">
+					<a class="mdl-navigation__link" onclick="clickEle('nav-home')">Home</a>
+					<a class="mdl-navigation__link" onclick="clickEle('nav-news')">News</a>
+					<a class="mdl-navigation__link" onclick="clickEle('nav-join')">Join us</a>
+					<a class="mdl-navigation__link" onclick="clickEle('nav-about')">About</a>
+				</nav>
+			</div>
+			<main class="mdl-layout__content"">
+				<div class="mdl-layout__tab-panel is-active" id="home">
+					<div class="mdl-grid">
+						<div class="mdl-cell mdl-cell--middle mdl-cell--8-col-desktop mdl-cell--4-col-phone card mdl-shadow--2dp" style="margin:auto;">
+							<div class="article-title mdl-color-text--grey-50">
+								<h3>Successfully submitted</h3>
+							</div>
+							<div class="article-brif mdl-color-text--grey-600">
+								Your application form has been successfully submitted and we will contact you soon. 
+							</div>
+							<div class="article-footer mdl-color-text--grey-600">
+								
+							</div>
+						</div>
+				</div>
+				<footer class="mdl-mini-footer mdl-color--white">
+					<div class="mdl-mini-footer__left-section">
+						<div class="mdl-logo">HICA</div>
+						<ul class="mdl-mini-footer__link-list">
+							<li><a href="#">Help</a></li>
+							<li><a href="#">Privacy & Terms</a></li>
+						</ul>
+					</div>
+					<script src="js/material.min.js"></script>
+				</footer>
+			</main>
+		</div>
+	</body>
+</html>
