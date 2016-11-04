@@ -163,7 +163,7 @@
 					<div class="mdl-layout__tab-panel" id="join">
 						<div class="mdl-grid">
 							<div class="mdl-cell mdl-cell--middle mdl-cell--8-col-desktop mdl-cell--4-col-phone card mdl-shadow--2dp" id="joinus-form">
-								<form action="http://104.236.180.133:5000" method="post">
+								<form action="http://104.168.87.230:5001" method="post">
 									<h4 class="form-title">Personal Information</h4>
 									<div class="input">
 										<div class="title inline-block">
@@ -424,7 +424,7 @@
 					<div class="mdl-layout__tab-panel" id="apply">
 						<div class="mdl-grid">
 							<div class="mdl-cell mdl-cell--middle mdl-cell--8-col-desktop mdl-cell--4-col-phone card mdl-shadow--2dp" id="apply-form">
-								<form action="http://104.236.180.133:5000/HITMUN" method="post">
+								<form action="http://104.168.87.230:5001/HITMUN" method="post">
 									<h4 class="form-title">Personal Information for 2016 HITMUN</h4>
 									<div class="input">
 										<div class="title inline-block">
@@ -504,6 +504,15 @@
 									</div>
 									<div class="input">
 										<div class="title inline-block">
+											<label for="English">English Level</label>
+										</div>
+										<div class="mdl-textfield mdl-js-textfield">
+											<input id="English" class="mdl-textfield__input" name="English" type="english">
+											<label class="mdl-textfield__label" for="English">CET/TOFEL/IELTS/GRE</label>
+										</div>
+									</div>
+									<!--<div class="input">
+										<div class="title inline-block">
 											<label for="Nationality">Nationality</label>
 										</div>
 										<div class="mdl-textfield mdl-js-textfield">
@@ -511,6 +520,7 @@
 											<label class="mdl-textfield__label" for="Nationality">Nationality, required</label>
 										</div>
 									</div>
+									-->
 									
 									<div class="input-select">
 										<div class="title inline-block">
@@ -518,24 +528,22 @@
 										</div>
 										<div class="select inline-block">
 											<select id="Intention" name="Intention">
-												<option value ="SC">Security Council</option>
-												<option value ="UNESCO">UNESCO</option>
-												<option value ="UNIDO">UNIDO</option>
-												<option value ="MPC">MPC</option>
+												<option value ="联合国安全理事会">联合国安全理事会</option>
+												<option value ="UNAIDS">UNAIDS</option>
 											</select>
 										</div>
 									</div>
 									<div class="input-adjustment">
 										<div class="title inline-block">
-											<label for="adjustment">Accept adjustment of delegate or not</label>
+											<label for="Adjustment">Accept adjustment of delegate or not</label>
 										</div>
 										<div class="input-radio inline-block">
 											<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="adjustment_1">
-											  <input type="radio" id="adjustment_1" class="mdl-radio__button" name="adjustment" value="Yes"/>
+											  <input type="radio" id="Adjustment_1" class="mdl-radio__button" name="Adjustment" value="Yes"/>
 											  <span class="mdl-radio__label">Yes</span>
 											</label>
 											<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="adjustment_2">
-											  <input type="radio" id="adjustment_2" class="mdl-radio__button" name="adjustment" value="No"/>
+											  <input type="radio" id="adjustment_2" class="mdl-radio__button" name="Adjustment" value="No"/>
 											  <span class="mdl-radio__label">No</span>
 											</label>
 										</div>
